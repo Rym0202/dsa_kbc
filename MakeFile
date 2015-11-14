@@ -1,0 +1,4 @@
+project: kbc.c 
+   	 cc kbc.o -o project
+kbc.o :kbc.c string.h time.h ctype.h stdlib.h
+       cc -Wall -c kbc.c
